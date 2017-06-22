@@ -12,9 +12,26 @@
 .container-fluid{
 	padding: 60px 50px;
 }
-
+.btn-default{
+	background-color: #f4511e !important;
+	color: white !important;
+}
+.btn-default:hover{
+	background-color: white !important;
+	color: #f4511e !important;
+	border: 1px solid #f4511e !important;
+}
 .logo{
 	font-size: 200px;
+	color: #f4511e;
+}
+.small-logo{
+	color: #f4511e;
+	font-size: 50px;
+}
+
+.bars{
+	background-color: white !important;
 }
 
 @media screen and (max-width: 768px){
@@ -22,4 +39,74 @@
 		text-align: center;
 		margin: 25px 0;
 	}
+}
+
+.navbar{
+	margin-bottom: 0;
+	background-color: #f4511e;
+	z-index: 9999;
+    border: 0;
+    font-size: 12px;
+    line-height: 1.42857143;
+    letter-spacing: 3px;
+    border-radius: 0;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #f4511e !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #f4511e;
+}
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.jumbotron {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-family: Montserrat, sans-serif;
+}
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+p.txt{
+	font-family: Calibri;
+	font-size: 18px;
+	font-weight: bold;
+}
+.main-img{
+	border:1px solid #f4511e;
+	width: 300px;
+}
+.skill-img{
+	width:120px;
+	height:100px;
 }
